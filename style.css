@@ -25,14 +25,14 @@ section{
     background-color: #0d0d0d;
     color:white;
     width:45%;
-    box-shadow:  5px 5px 10px #050505,
-             -5px -5px 10px #151515;
+    box-shadow:  10px 10px 5px #050505,
+             -10px -10px 5px #151515;
 }
 aside{
     background-color: #0d0d0d;
     color:white;
-    box-shadow:  5px 5px 10px #050505,
-    -5px -5px 10px #151515;
+    box-shadow:  10px 10px 5px #050505,
+    -10px -10px 5px #151515;
     width:50%;
 }
 .info,.skills,.language{
@@ -56,23 +56,23 @@ h5 i{
 h3 i{
     margin-right: 40px;
 }
-.html{width:90%;background-color:black ;border-radius: 6px;
+.html{width:90%;background-color:rgb(18, 250, 38) ;border-radius: 6px;
     height: 15px;}
-.css{width:80%;background-color:black ;border-radius: 6px;
+.css{width:80%;background-color:rgb(18, 250, 38) ;border-radius: 6px;
         height: 15px;}
-.js{width:50%;background-color:black ;border-radius: 6px;
+.js{width:50%;background-color:rgb(18, 250, 38) ;border-radius: 6px;
             height: 15px;}
-.php{width:40%;background-color:black ;border-radius: 6px;
+.php{width:40%;background-color:rgb(18, 250, 38) ;border-radius: 6px;
                 height: 15px;}
-.c{width:50%;background-color:black ;border-radius: 6px;
+.c{width:50%;background-color:rgb(18, 250, 38) ;border-radius: 6px;
                     height: 15px;}
-.cpp{width:50%;background-color:black ;border-radius: 6px;
+.cpp{width:50%;background-color:rgb(18, 250, 38);border-radius: 6px;
                         height: 15px;}
-.eng{width:70%;background-color:black ;border-radius: 6px;
+.eng{width:70%;background-color:#e84118 ;border-radius: 6px;
                             height: 15px;}
-.nep{width:95%;background-color:black ;border-radius: 6px;
+.nep{width:95%;background-color:#e84118;border-radius: 6px;
                                 height: 15px;}
-.limbu{width:90%;background-color:black ;border-radius: 6px;
+.limbu{width:90%;background-color:#e84118;border-radius: 6px;
 height: 15px;}
 
 
@@ -97,4 +97,11 @@ footer{
         width:100%;
     }
 }
-        
+.social i{
+    color:rgb(16, 17, 17);
+    transition: 0.5s;
+}
+.social i:hover{
+    color:red;
+    font-size:1.8rem;
+}
