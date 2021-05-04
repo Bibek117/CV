@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding:0;
     box-sizing: border-box;
-    background-color: #0d0d0d;
+    background-color:  #0d0d0d;
 }
 .fas{
     /* background-color: white; */
@@ -84,8 +84,8 @@ footer{
     font-size:1.6rem;
     height:200px;
     width:100%;
-    background-color: #bdc3c7;
-    color:black;
+    background-color: black;
+    color:white;
     text-align: center;
 
 }
@@ -98,10 +98,55 @@ footer{
     }
 }
 .social i{
-    color:rgb(16, 17, 17);
+    color:white;
     transition: 0.5s;
 }
 .social i:hover{
     color:red;
     font-size:1.8rem;
+}
+
+/* for dark light mode */
+.image{
+    position: relative;
+}
+.darkLight{
+    background-color: white;
+    width:35px;
+    /* height:15px; */
+    font-size: 0.8rem;
+    padding:2px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    position: absolute;
+    top:5px;
+    height: 12px;
+    right:10px;
+    overflow:hidden;
+}
+.darkLight > i{
+    color:black;
+}
+.fa-moon{
+    position: absolute;
+    top:5px;
+    right:4px;
+    transition: 1s;
+}
+.fa-sun{
+    position:absolute;
+    top: 5px;
+    left:-15px;
+    transition: 1s;  
+}
+
+.active-section,.active-aside{
+    background: #ffffff;
+    box-shadow:  6px 6px 10px #666666,
+                 -6px -6px 10px #ffffff;
+    color:black;
+}
+.active-footer{
+    background-color: #bdc3c7;
+    color:black;
 }
